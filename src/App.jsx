@@ -1,8 +1,10 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Menu from './assets/Componentes/Menu';
-import Gruboton from './assets/Componentes/Gruboton';
-import Botopru from './assets/Componentes/botopru';
+import Peboton from './assets/Componentes/Peboton';
+import Ceboton from "./assets/Componentes/Ceboton"
+
+
 function App() {
 
   return (
@@ -10,13 +12,12 @@ function App() {
       <div className='Edimenu'>
 
         <Menu></Menu>
-        
-
-        <Gruboton></Gruboton>
+        <Peboton></Peboton>
+        <Ceboton></Ceboton>
       </div>
-        <div>
-          <Botopru></Botopru>
-        </div>
+      
+     
+        
       
     </>
   )

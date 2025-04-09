@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import hamburguesa from '../Imagenes/hamburguesa.png';
 import logo from "../Imagenes/logo.jpg"
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
 <img src="../assets/Imagenes/hamburguesa" alt="" />
 function Menu() {
@@ -24,9 +25,9 @@ function Menu() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2"> Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Citas</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2"> Historia clinica</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Pacientes recientes</NavDropdown.Item>
 
         
 
@@ -34,6 +35,10 @@ function Menu() {
 
       </Offcanvas>
       <img className='logo' src={logo} alt="errorrr" />
+      
+      
+      
+
     </>
   );
 }
